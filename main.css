@@ -88,8 +88,11 @@ footer{
 	justify-content: space-between;
 }
 a{
-	margin-left: 70px;
+	margin-left: 72px;
 }
-ion-icon{
-	padding-left: 17px;
+ion-icon, #follow{
+	margin-right: 17px;
+}
+#instagram{
+	margin-right: 72px;
 }
