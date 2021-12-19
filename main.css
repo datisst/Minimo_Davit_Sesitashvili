@@ -88,5 +88,8 @@ footer{
 	justify-content: space-between;
 }
 a{
-	margin-right: 17px;
+	margin-left: 70px;
+}
+ion-icon{
+	padding-left: 17px;
 }
