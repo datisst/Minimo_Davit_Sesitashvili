@@ -1,0 +1,93 @@
+
+/*global CSS*/
+
+.font-playfair {
+	font-family: 'PlayfairDisplay-Regular';
+	text-transform: capitalize;
+}
+
+
+.font-ubuntu {
+	font-family: 'Ubuntu-light';
+	text-transform: uppercase;
+}
+
+
+.container-wide {
+	width: 88.5%;
+	margin: auto;
+}
+
+
+.container {
+	width: 75%;
+	margin: auto;
+}
+
+
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.justify-between {
+	justify-content: space-between;
+}
+
+
+body {
+	color: #626262;
+}
+
+p {
+line-height: 24px;
+font-size: 14px;
+}
+
+/*Home Page*/
+
+
+#logo {
+	width: 140px;
+}
+
+#header {
+	margin-top: 62px;
+	align-items: center;
+	margin-bottom: 70px;
+}
+
+nav {
+	width: 54%;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+
+#banner{
+	margin-bottom: 98px;
+}
+
+h1{
+	font-size: 30px;
+	margin-top: 29px;
+	margin-bottom: 35px;
+}
+
+#comment{
+margin-top: 48px;
+margin-bottom: 133px;
+}
+
+footer{
+	padding: 41px 0px;
+	background-color: rgb(236, 236, 236);
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+a{
+	margin-right: 17px;
+}
