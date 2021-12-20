@@ -45,6 +45,9 @@ p {
 line-height: 24px;
 font-size: 14px;
 }
+.br-gray{
+	background-color: #f0f0f0;
+}
 
 /*Home Page*/
 
@@ -82,17 +85,50 @@ margin-bottom: 133px;
 }
 
 footer{
-	padding: 41px 0px;
+	padding: 41px 6%;
 	background-color: rgb(236, 236, 236);
 	display: flex;
 	justify-content: space-between;
 }
 a{
-	margin-left: 72px;
-}
-ion-icon, #follow{
+	margin-left: 17px;
 	margin-right: 17px;
 }
-#instagram{
-	margin-right: 72px;
+
+.article-wrapper div{
+	width: 46.6%;
+}
+
+.flex{
+	display: flex;
+	justify-content: space-between;
+}
+
+.article-wrapper div{
+	margin-bottom: 134px;
+}
+.article-wrapper div img{
+	margin-bottom: 31px;
+}
+
+#subscribe{
+	padding-top: 68px;
+	padding-bottom: 77px;
+	text-align: center;
+	margin-bottom: 98px;
+}
+
+h4{
+	display: inline-block;
+}
+
+input{
+	border: none;
+	border-bottom: solid;
+	background-color: inherit;
+	padding: 10px;
+	width: 30%;
+}
+input:focus{
+	outline: none;
 }
